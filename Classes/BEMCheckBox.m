@@ -122,7 +122,9 @@
 
 #pragma mark Setters
 - (void)_setOn:(BOOL)on animated:(BOOL)animated notifyGroup:(BOOL)notifyGroup {
+    [self willChangeValueForKey:NSStringFromSelector(@selector(on))];
     _on = on;
+    [self didChangeValueForKey:NSStringFromSelector(@selector(on))];
     
     [self drawEntireCheckBox];
     
