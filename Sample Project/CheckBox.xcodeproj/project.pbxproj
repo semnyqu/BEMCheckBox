@@ -346,13 +346,16 @@
 					};
 					C325370C1B9231780059F394 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = VX8S5F7QT6;
 					};
 					C32537251B9231780059F394 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = VX8S5F7QT6;
 						TestTargetID = C325370C1B9231780059F394;
 					};
 					FC76C2411D7A121200EE3AA4 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VX8S5F7QT6;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C325370C1B9231780059F394;
 					};
@@ -509,7 +512,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BEMCheckBox/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BEM.CheckBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,7 +535,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BEMCheckBox/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BEM.CheckBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -632,7 +635,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VX8S5F7QT6;
 				INFOPLIST_FILE = CheckBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BEM.$(PRODUCT_NAME:rfc1034identifier).exampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -643,7 +648,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VX8S5F7QT6;
 				INFOPLIST_FILE = CheckBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BEM.$(PRODUCT_NAME:rfc1034identifier).exampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -654,6 +661,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VX8S5F7QT6;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -670,6 +678,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VX8S5F7QT6;
 				INFOPLIST_FILE = CheckBoxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BEM.$(PRODUCT_NAME:rfc1034identifier)";
@@ -686,6 +695,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VX8S5F7QT6;
 				INFOPLIST_FILE = CheckBoxUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -702,6 +712,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = VX8S5F7QT6;
 				INFOPLIST_FILE = CheckBoxUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
